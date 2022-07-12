@@ -28,11 +28,7 @@
   // 如果向目标页面插入图片或者js，需要在这里授权插件本地资源（以下仅为示例）。
   "web_accessible_resources": [
     {
-      "resources": ["static/images/logo.png"],
-      "matches": ["<all_urls>"]
-    },
-    {
-      "resources": ["insert.js"],
+      "resources": ["static/js/insert.js"],
       "matches": ["<all_urls>"]
     }
   ],
