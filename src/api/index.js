@@ -1,0 +1,146 @@
+const apiList = {
+    'https://img.alicdn.com/imgextra/i4/O1CN01GZ8Gm51DHyo7asI5m_!!6000000000192-2-tps-160-160.png': {
+        api: 'https://img.alicdn.com/imgextra/i4/O1CN01GZ8Gm51DHyo7asI5m_!!6000000000192-2-tps-160-160.png',
+        sizes: { requestBodySize: 0, requestHeadersSize: 385, responseBodySize: 13386, responseHeadersSize: 662 },
+        params: null,
+        responseBody: null,
+        url: { 'https://www.taobao.com/': 1 },
+        status: 200,
+        method: 'GET',
+        requestHeader: {
+            'sec-ch-ua': '".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"',
+            referer: 'https://www.taobao.com/',
+            'sec-ch-ua-mobile': '?0',
+            'user-agent':
+                'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36',
+            'sec-ch-ua-platform': '"macOS"',
+        },
+        responseHeader: {
+            date: 'Mon, 04 Jul 2022 11:22:35 GMT',
+            via: 'cache26.l2hk2[0,0,200-0,H], cache36.l2hk2[1,0], cache12.hk15[0,0,200-0,H], cache10.hk15[1,0]',
+            age: '942929',
+            'request-time': '0.050',
+            'x-cache': 'HIT TCP_MEM_HIT dirn:10:1065751521',
+            'x-swift-cachetime': '30907148',
+            'x-swift-savetime': 'Mon, 11 Jul 2022 18:03:28 GMT',
+            's-rt': '1',
+            'content-length': '13386',
+            'last-modified': 'Thu, 23 Jun 2022 06:10:48 GMT',
+            server: 'Tengine',
+            'ali-swift-global-savetime': '1656933756',
+            'content-type': 'image/png',
+            'access-control-allow-origin': '*',
+            'cache-control': 'max-age=31536000',
+            'picasso-ret-code': 'SUCCESS',
+            'timing-allow-origin': '*',
+            eagleid: '7400599e16578766857288271e',
+            expires: 'Tue, 04 Jul 2023 11:22:35 GMT',
+        },
+    },
+    'https://arms-retcode.aliyuncs.com/r.png?t=api&times=1&page=login.taobao.com%2Fmember%2Flogin.jhtml&tag=undefined_2136326e16578768365817114d073a&release=0.7.12&begin=1657876845995&c1=taobao_pc&c2=taobao&c3=&api=ynuf.aliapp.org%2Fservice%2Fum.json&success=1&time=726&code=200&msg=&traceId=&pv_id=92l585kqmXq9R92qnbX59Xpxvjp4&domain=login.taobao.com&flag=1&sr=1512x777&vp=1512x777&ct=4g&uid=R9lmh5XhmIj9ts2nFhtdzqyjkjw7&sid=qIlCX5zdmOv9e32g3hb5zF1k9C79&pid=gf3el0xc6g%40256d85bbd150cf1&_v=1.8.30&sampling=1&dl=https%3A%2F%2Flogin.taobao.com%2Fmember%2Flogin.jhtml%3FredirectURL%3Dhttps%253a%252f%252fs.taobao.com%3A443%2Fsearch%252F_____tmd_____%252Fpage%252Flogin_jump%253Frand%253DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%2526_lgt_%253Dc79bd1e28b6a8f63a8cfe4a8f376b2db___6909___b7324d2c9cc9b77fa0df97e60cdd3e58___837b211a0c5c4d0311617da5fff37e25001413704de625b860e2518faad0f0368a4c4274b015d47cf3fd4bb48e16d89dc2220a34d5cd427e797a27d08b72aca0c14f06d134b850c1ec996e62ad388536f0e031931b9132ad85013eb3be5&z=l5m92b9x&post_res=&_bx-v=2.1.11':
+        {
+            url: {
+                api: 'https://arms-retcode.aliyuncs.com/r.png?t=api&times=1&page=login.taobao.com%2Fmember%2Flogin.jhtml&tag=undefined_2136326e16578768365817114d073a&release=0.7.12&begin=1657876845995&c1=taobao_pc&c2=taobao&c3=&api=ynuf.aliapp.org%2Fservice%2Fum.json&success=1&time=726&code=200&msg=&traceId=&pv_id=92l585kqmXq9R92qnbX59Xpxvjp4&domain=login.taobao.com&flag=1&sr=1512x777&vp=1512x777&ct=4g&uid=R9lmh5XhmIj9ts2nFhtdzqyjkjw7&sid=qIlCX5zdmOv9e32g3hb5zF1k9C79&pid=gf3el0xc6g%40256d85bbd150cf1&_v=1.8.30&sampling=1&dl=https%3A%2F%2Flogin.taobao.com%2Fmember%2Flogin.jhtml%3FredirectURL%3Dhttps%253a%252f%252fs.taobao.com%3A443%2Fsearch%252F_____tmd_____%252Fpage%252Flogin_jump%253Frand%253DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%2526_lgt_%253Dc79bd1e28b6a8f63a8cfe4a8f376b2db___6909___b7324d2c9cc9b77fa0df97e60cdd3e58___837b211a0c5c4d0311617da5fff37e25001413704de625b860e2518faad0f0368a4c4274b015d47cf3fd4bb48e16d89dc2220a34d5cd427e797a27d08b72aca0c14f06d134b850c1ec996e62ad388536f0e031931b9132ad85013eb3be5&z=l5m92b9x&post_res=&_bx-v=2.1.11',
+                sizes: { requestBodySize: 2, requestHeadersSize: 1683, responseBodySize: 25, responseHeadersSize: 150 },
+                params: {},
+                responseBody: {},
+                url: {
+                    'https://login.taobao.com/member/login.jhtml?redirectURL=https%3a%2f%2fs.taobao.com:443/search%2F_____tmd_____%2Fpage%2Flogin_jump%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26_lgt_%3Dc79bd1e28b6a8f63a8cfe4a8f376b2db___6909___b7324d2c9cc9b77fa0df97e60cdd3e58___837b211a0c5c4d0311617da5fff37e25001413704de625b860e2518faad0f0368a4c4274b015d47cf3fd4bb48e16d89dc2220a34d5cd427e797a27d08b72aca0c14f06d134b850c1ec996e62ad388536f0e031931b9132ad85013eb3be5f87fd9de991d92f1176f74a12aa319edb90eb5b57eeeb705670ab2f54e5483646d783430cfbe0ab46de268726b86f3ca71613%26x5referer%3Dhttp%253A%252F%252Fs.taobao.com%252Fsearch%253Fq%253D%2525E7%252581%2525AB%2525E6%252598%25259F%2526commend%253Dall%2526ssid%253Ds5-e%2526search_type%253Ditem%2526sourceId%253Dtb.index%2526spm%253Da21bo.jianhua.201856-taobao-item.2%2526ie%253Dutf8%2526initiative_id%253Dtbindexz_20170306&uuid=c79bd1e28b6a8f63a8cfe4a8f376b2db': 1,
+                },
+                status: 200,
+                method: 'POST',
+                requestHeader: {
+                    'sec-ch-ua': '".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"',
+                    referer: 'https://login.taobao.com/',
+                    'sec-ch-ua-mobile': '?0',
+                    'user-agent':
+                        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36',
+                    'sec-ch-ua-platform': '"macOS"',
+                    'content-type': 'text/plain',
+                },
+                responseHeader: {
+                    'access-control-allow-origin': '*',
+                    date: 'Fri, 15 Jul 2022 09:20:47 GMT',
+                    server: 'nginx',
+                    'timing-allow-origin': '*',
+                    'content-type': 'image/png',
+                },
+                'https://login.taobao.com/member/login.jhtml?redirectURL=https%3a%2f%2fs.taobao.com:443/search%2F_____tmd_____%2Fpage%2Flogin_jump%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26_lgt_%3Dc79bd1e28b6a8f63a8cfe4a8f376b2db___6909___b7324d2c9cc9b77fa0df97e60cdd3e58___837b211a0c5c4d0311617da5fff37e25001413704de625b860e2518faad0f0368a4c4274b015d47cf3fd4bb48e16d89dc2220a34d5cd427e797a27d08b72aca0c14f06d134b850c1ec996e62ad388536f0e031931b9132ad85013eb3be5f87fd9de991d92f1176f74a12aa319edb90eb5b57eeeb705670ab2f54e5483646d783430cfbe0ab46de268726b86f3ca71613%26x5referer%3Dhttp%253A%252F%252Fs.taobao.com%252Fsearch%253Fq%253D%2525E7%252581%2525AB%2525E6%252598%25259F%2526commend%253Dall%2526ssid%253Ds5-e%2526search_type%253Ditem%2526sourceId%253Dtb.index%2526spm%253Da21bo.jianhua.201856-taobao-item.2%2526ie%253Dutf8%2526initiative_id%253Dtbindexz_20170306&uuid=c79bd1e28b6a8f63a8cfe4a8f376b2db':
+                    '[object Object]1',
+            },
+            sizes: { requestBodySize: 2, requestHeadersSize: 1683, responseBodySize: 25, responseHeadersSize: 150 },
+            params: {},
+            responseBody: {},
+            status: 200,
+            method: 'POST',
+            requestHeader: {
+                'sec-ch-ua': '".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"',
+                referer: 'https://login.taobao.com/',
+                'sec-ch-ua-mobile': '?0',
+                'user-agent':
+                    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36',
+                'sec-ch-ua-platform': '"macOS"',
+                'content-type': 'text/plain',
+            },
+            responseHeader: {
+                'access-control-allow-origin': '*',
+                date: 'Fri, 15 Jul 2022 09:20:47 GMT',
+                server: 'nginx',
+                'timing-allow-origin': '*',
+                'content-type': 'image/png',
+            },
+        },
+    'https://arms-retcode.aliyuncs.com/r.png?t=api&times=1&page=login.taobao.com%2Fmember%2Flogin.jhtml&tag=undefined_2136326e16578768365817114d073a&release=0.7.12&begin=1657876845376&c1=taobao_pc&c2=taobao&c3=&api=ynuf.aliapp.org%2Fservice%2Fum.json&success=1&time=1407&code=200&msg=&traceId=&pv_id=92l585kqmXq9R92qnbX59Xpxvjp4&domain=login.taobao.com&flag=1&sr=1512x777&vp=1512x777&ct=4g&uid=R9lmh5XhmIj9ts2nFhtdzqyjkjw7&sid=qIlCX5zdmOv9e32g3hb5zF1k9C79&pid=gf3el0xc6g%40256d85bbd150cf1&_v=1.8.30&sampling=1&dl=https%3A%2F%2Flogin.taobao.com%2Fmember%2Flogin.jhtml%3FredirectURL%3Dhttps%253a%252f%252fs.taobao.com%3A443%2Fsearch%252F_____tmd_____%252Fpage%252Flogin_jump%253Frand%253DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%2526_lgt_%253Dc79bd1e28b6a8f63a8cfe4a8f376b2db___6909___b7324d2c9cc9b77fa0df97e60cdd3e58___837b211a0c5c4d0311617da5fff37e25001413704de625b860e2518faad0f0368a4c4274b015d47cf3fd4bb48e16d89dc2220a34d5cd427e797a27d08b72aca0c14f06d134b850c1ec996e62ad388536f0e031931b9132ad85013eb3be5&z=l5m92b9y&post_res=&_bx-v=2.1.11':
+        {
+            url: {
+                api: 'https://arms-retcode.aliyuncs.com/r.png?t=api&times=1&page=login.taobao.com%2Fmember%2Flogin.jhtml&tag=undefined_2136326e16578768365817114d073a&release=0.7.12&begin=1657876845376&c1=taobao_pc&c2=taobao&c3=&api=ynuf.aliapp.org%2Fservice%2Fum.json&success=1&time=1407&code=200&msg=&traceId=&pv_id=92l585kqmXq9R92qnbX59Xpxvjp4&domain=login.taobao.com&flag=1&sr=1512x777&vp=1512x777&ct=4g&uid=R9lmh5XhmIj9ts2nFhtdzqyjkjw7&sid=qIlCX5zdmOv9e32g3hb5zF1k9C79&pid=gf3el0xc6g%40256d85bbd150cf1&_v=1.8.30&sampling=1&dl=https%3A%2F%2Flogin.taobao.com%2Fmember%2Flogin.jhtml%3FredirectURL%3Dhttps%253a%252f%252fs.taobao.com%3A443%2Fsearch%252F_____tmd_____%252Fpage%252Flogin_jump%253Frand%253DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%2526_lgt_%253Dc79bd1e28b6a8f63a8cfe4a8f376b2db___6909___b7324d2c9cc9b77fa0df97e60cdd3e58___837b211a0c5c4d0311617da5fff37e25001413704de625b860e2518faad0f0368a4c4274b015d47cf3fd4bb48e16d89dc2220a34d5cd427e797a27d08b72aca0c14f06d134b850c1ec996e62ad388536f0e031931b9132ad85013eb3be5&z=l5m92b9y&post_res=&_bx-v=2.1.11',
+                sizes: { requestBodySize: 2, requestHeadersSize: 1684, responseBodySize: 25, responseHeadersSize: 150 },
+                params: {},
+                responseBody: {},
+                url: {
+                    'https://login.taobao.com/member/login.jhtml?redirectURL=https%3a%2f%2fs.taobao.com:443/search%2F_____tmd_____%2Fpage%2Flogin_jump%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26_lgt_%3Dc79bd1e28b6a8f63a8cfe4a8f376b2db___6909___b7324d2c9cc9b77fa0df97e60cdd3e58___837b211a0c5c4d0311617da5fff37e25001413704de625b860e2518faad0f0368a4c4274b015d47cf3fd4bb48e16d89dc2220a34d5cd427e797a27d08b72aca0c14f06d134b850c1ec996e62ad388536f0e031931b9132ad85013eb3be5f87fd9de991d92f1176f74a12aa319edb90eb5b57eeeb705670ab2f54e5483646d783430cfbe0ab46de268726b86f3ca71613%26x5referer%3Dhttp%253A%252F%252Fs.taobao.com%252Fsearch%253Fq%253D%2525E7%252581%2525AB%2525E6%252598%25259F%2526commend%253Dall%2526ssid%253Ds5-e%2526search_type%253Ditem%2526sourceId%253Dtb.index%2526spm%253Da21bo.jianhua.201856-taobao-item.2%2526ie%253Dutf8%2526initiative_id%253Dtbindexz_20170306&uuid=c79bd1e28b6a8f63a8cfe4a8f376b2db': 1,
+                },
+                status: 200,
+                method: 'POST',
+                requestHeader: {
+                    'sec-ch-ua': '".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"',
+                    referer: 'https://login.taobao.com/',
+                    'sec-ch-ua-mobile': '?0',
+                    'user-agent':
+                        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36',
+                    'sec-ch-ua-platform': '"macOS"',
+                    'content-type': 'text/plain',
+                },
+                responseHeader: {
+                    'access-control-allow-origin': '*',
+                    date: 'Fri, 15 Jul 2022 09:20:47 GMT',
+                    server: 'nginx',
+                    'timing-allow-origin': '*',
+                    'content-type': 'image/png',
+                },
+                'https://login.taobao.com/member/login.jhtml?redirectURL=https%3a%2f%2fs.taobao.com:443/search%2F_____tmd_____%2Fpage%2Flogin_jump%3Frand%3DS3WxGHAgAt756EpznwfNzJq2AFA2qBNla3j6EINUS8We9dazM_iKElp8DwVSHZUevpC41Bx7RzivXIj9RnZgdg%26_lgt_%3Dc79bd1e28b6a8f63a8cfe4a8f376b2db___6909___b7324d2c9cc9b77fa0df97e60cdd3e58___837b211a0c5c4d0311617da5fff37e25001413704de625b860e2518faad0f0368a4c4274b015d47cf3fd4bb48e16d89dc2220a34d5cd427e797a27d08b72aca0c14f06d134b850c1ec996e62ad388536f0e031931b9132ad85013eb3be5f87fd9de991d92f1176f74a12aa319edb90eb5b57eeeb705670ab2f54e5483646d783430cfbe0ab46de268726b86f3ca71613%26x5referer%3Dhttp%253A%252F%252Fs.taobao.com%252Fsearch%253Fq%253D%2525E7%252581%2525AB%2525E6%252598%25259F%2526commend%253Dall%2526ssid%253Ds5-e%2526search_type%253Ditem%2526sourceId%253Dtb.index%2526spm%253Da21bo.jianhua.201856-taobao-item.2%2526ie%253Dutf8%2526initiative_id%253Dtbindexz_20170306&uuid=c79bd1e28b6a8f63a8cfe4a8f376b2db':
+                    '[object Object]1',
+            },
+            sizes: { requestBodySize: 2, requestHeadersSize: 1684, responseBodySize: 25, responseHeadersSize: 150 },
+            params: {},
+            responseBody: {},
+            status: 200,
+            method: 'POST',
+            requestHeader: {
+                'sec-ch-ua': '".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103"',
+                referer: 'https://login.taobao.com/',
+                'sec-ch-ua-mobile': '?0',
+                'user-agent':
+                    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36',
+                'sec-ch-ua-platform': '"macOS"',
+                'content-type': 'text/plain',
+            },
+            responseHeader: {
+                'access-control-allow-origin': '*',
+                date: 'Fri, 15 Jul 2022 09:20:47 GMT',
+                server: 'nginx',
+                'timing-allow-origin': '*',
+                'content-type': 'image/png',
+            },
+        },
+};
