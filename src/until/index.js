@@ -60,6 +60,7 @@ const findxpathFun = (element) => {
 		return '/';
 	}
 };
+
 const findAttribute = (target) => {
 	if (target) {
 		let attributeArr = target.getAttributeNames() || [];

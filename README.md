@@ -11,7 +11,7 @@
 yarn install
 
 yarn run serve
-
+yarn run start
 
 //打包
 
@@ -22,8 +22,8 @@ npm run build
 ## 文件结构
 
 ```json
-
 ├── README.md
+├── build
 ├── config
 │   ├── env.js
 │   ├── getHttpsConfig.js
@@ -38,6 +38,7 @@ npm run build
 │   │       └── createEnvironmentHash.js
 │   ├── webpack.config.js
 │   └── webpackDevServer.config.js
+├── craco.config.js
 ├── nodemon.json
 ├── package-lock.json
 ├── package.json
@@ -48,35 +49,68 @@ npm run build
 │   └── static
 │       ├── css
 │       │   └── content.css
-│       ├── images
-│       │   └── logo.png
-│       └── js
-│           ├── background.js
-│           ├── content.js
-│           ├── insert.js
-│           └── page.js
+│       └── images
+│           └── logo.png
 ├── scripts
 │   ├── build.js
 │   ├── start.js
 │   └── test.js
 ├── src
-│   └── api //模拟接口
-│   └── chrome //chrome 插件扩展
-│   └── components //组件
-│   └── config //全局配置，字典项等
-│   └── pages //页面
-│  		├── devtools
-│  		├── panel
-│  		├── popup
-│   └── store //维护录入的脚本用例信息
-│   └── until //工具函数
 │   ├── App.js
-│   └── index.js
+│   ├── api
+│   │   └── index.js
+│   ├── app.less
+│   ├── assert
+│   │   └── tool.less
+│   ├── chrome
+│   │   └── index.js
+│   ├── components
+│   │   ├── caseslist
+│   │   │   ├── index.jsx
+│   │   │   └── index.less
+│   │   ├── globalconfig
+│   │   │   ├── index.jsx
+│   │   │   └── index.less
+│   │   ├── interfaceassert
+│   │   │   ├── index.jsx
+│   │   │   └── index.less
+│   │   └── normalconfig
+│   │       ├── index.jsx
+│   │       └── index.less
+│   ├── config
+│   │   └── index.js
+│   ├── index.js
+│   ├── pages
+│   │   ├── background
+│   │   │   └── index.js
+│   │   ├── content
+│   │   │   └── index.js
+│   │   ├── devtools
+│   │   │   ├── devtools.jsx
+│   │   │   ├── index.js
+│   │   │   └── index.less
+│   │   ├── insert
+│   │   │   └── index.js
+│   │   ├── panel
+│   │   │   ├── index.js
+│   │   │   ├── index.less
+│   │   │   └── panel.jsx
+│   │   └── popup
+│   │       ├── index.js
+│   │       ├── index.less
+│   │       └── popup.jsx
+│   ├── store
+│   │   └── index.js
+│   └── until
+│       └── index.js
+├── task.md
 └── yarn.lock
 ```
 
-chrome 插件 panel 生效方式，需要重新加载插件，并且关闭调试刷新，打开调试面板才可以生效
-chrome 插件 popup 生效方式，刷新页面即可生效
+chrome 插件 panel 生效方式: 需要重新加载插件，并且关闭调试刷新，打开调试面板才可以生效
+chrome 插件 popup 生效方式: 刷新页面即可生效
+chrome 插件 content 生效方式:需要刷新页面
+chrome 插件 insert 生效方式:不需要刷新页面，热加载
 
 #### 参考文档
 
